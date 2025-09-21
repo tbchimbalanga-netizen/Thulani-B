@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nyize Enterprises Ltd</title>
+  <style>
+    body { margin:0; font-family:Arial, sans-serif; background:#f9fafb; color:#333; }
+    header { background:#064e3b; color:white; padding:2rem; text-align:center; }
+    header h1 { margin:0; font-size:2rem; }
+    header p { margin:0.5rem 0 0; }
+    section { max-width:1000px; margin:2rem auto; background:white; padding:2rem; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    h2 { font-size:1.5rem; margin-bottom:1rem; }
+    ul { padding-left:1.5rem; }
+    .grid { display:grid; gap:1rem; }
+    @media(min-width:768px){ .grid-2 { grid-template-columns:repeat(2,1fr); } .grid-3 { grid-template-columns:repeat(3,1fr);} }
+    .card { padding:1rem; background:#ecfdf5; border-radius:8px; }
+    img { width:100%; border-radius:8px; object-fit:cover; }
+    form input, form textarea { width:100%; padding:0.75rem; border:1px solid #ccc; border-radius:8px; }
+    form button { background:#064e3b; color:white; padding:0.75rem 1.5rem; border:none; border-radius:8px; cursor:pointer; }
+    footer { background:#f3f4f6; padding:1rem; text-align:center; font-size:0.9rem; color:#555; }
+    /* simple fade animation */
+    section { opacity:0; transform:translateY(20px); transition:all 0.6s ease; }
+    section.visible { opacity:1; transform:translateY(0); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nyize Enterprises Ltd</h1>
+    <p>Responsible Zambian Emerald Mining — Chiparamba Pit, Lufwanyama</p>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Nyize Enterprises Ltd is a 100% Zambian-owned mining company holding Small Scale Mining License No. 16069-HQ-SML over 179.85 hectares in Ndola Rural, Lufwanyama District. The company is focused on the Chiparamba Pit — a historically productive emerald site.</p>
+    <p>The original mining operations began in 1989 with Mr. James Bwezani Banda, Thomas Suze and Blackson Nyirenda. Structured investment was carried out by Mr. James Bwezani Banda who opened the Chiparamba Pit, during the years between 1989 and 1994. Further investment was brought in by Mr. Rupiah Bwezani Banda and George Gerry Chabwera who purchased earth-moving equipment which allowed continued operations at the Chiparamba Pit.</p>
+    <ul>
+      <li><strong>Ownership:</strong> 100% Zambian-owned</li>
+      <li><strong>License:</strong> Small Scale Mining License No. 16069-HQ-SML (valid 2022–2032)</li>
+      <li><strong>Location:</strong> Ndola Rural, Lufwanyama District</li>
+    </ul>
+  </section>
+
+  <!-- Project -->
+  <section id="project">
+    <h2>Project — Chiparamba Pit</h2>
+    <p>Modern geophysical surveys (ADMT &amp; GPR) have indicated consistent geomagnetic anomalies around Chiparamba Pit with promising shallow mineralization. Planned next steps include trenching, sampling and shallow drilling across priority grid points.</p>
+    <div class="grid grid-2">
+      <div>
+        <h3>Operations Plan</h3>
+        <ol>
+          <li>Exploration &amp; Development (2024–2025)</li>
+          <li>Pilot Production (2026) — mechanized reopening and washing/sorting</li>
+          <li>Commercial Scale Mining (2027+) — expand pits and structured sales</li>
+        </ol>
+      </div>
+      <div>
+        <h3>Market &amp; Value</h3>
+        <p>Zambia is the world’s second-largest emerald producer. Nyize aims to sell via auctions and long-term contracts, with potential for on-site cutting and polishing to capture value.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Financials -->
+  <section id="financials">
+    <h2>Financials &amp; Investment</h2>
+    <p>Nyize is seeking staged investment (Phase 1: USD 2–3M; Phase 2: USD 5–7M). Projections show pilot EBITDA positive in Years 1–2 with scaled profitability by Year 3 onwards.</p>
+    <div class="grid grid-3">
+      <div class="card">
+        <h4>Phase 1</h4>
+        <p>Target: 20,000 tpa → ~8,000 carats/year; Revenue (avg): ~USD 1.2M</p>
+      </di
